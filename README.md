@@ -25,7 +25,7 @@ yarn add ewelint -D
 ## Uso
 Depois de instalado, você pode configurar o ESLint em seu projeto da seguinte maneira:
 
-Crie um arquivo de configuração do ESLint (por exemplo, eslint.config.js) na raiz do seu projeto.
+Crie um arquivo de configuração do ESLint (por exemplo, `eslint.config.js`) na raiz do seu projeto.
 Importe a configuração desejada (para JavaScript ou TypeScript) e exporte-a.
 
 - Para JavaScript
@@ -44,7 +44,7 @@ export default eslintReactTs;
 ```
 
 ## Executando o Linter
-Você pode adicionar um script no seu package.json para rodar o ESLint em todos os arquivos:
+Você pode adicionar um script no seu `package.json` para rodar o ESLint em todos os arquivos:
 
 ```json
 "scripts": {
@@ -56,3 +56,12 @@ Em seguida, execute o comando:
 ```bash
 npm run lint
 ```
+
+## Configuração Personalizada
+As regras do ESLint e Prettier podem ser personalizadas editando as configurações no arquivo `eslint.config.js` após a importação.
+
+## Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas e pull requests.
+
+## Licença
+Esse projeto está licenciado sob a MIT License.
