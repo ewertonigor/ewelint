@@ -1,6 +1,6 @@
 {
   "name": "ewelint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "author": "https://github.com/ewertonigor",
   "description": "Custom ESLint and Prettier config for JS and TS",
